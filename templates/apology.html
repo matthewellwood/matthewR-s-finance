@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Apology
+{% endblock %}
+
+{% block main %}
+<!-- https://memegen.link/ -->
+<img alt="{{ top }}" class="border img-fluid" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://www.londonschool.com/media/filer_public_thumbnails/filer_public/b8/3c/b83c2018-ddcf-443b-9168-fb201e288858/20160202_125935.png__1240x0_q50_subsampling-2_upscale.jpg&width=400" title="{{ top }}">
+{% endblock %}
